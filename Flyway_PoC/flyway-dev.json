@@ -23,6 +23,18 @@
           "type": "UsernamePassword"
         },
         "schemas": []
+      },
+      {
+        "connectionProvider": {
+          "url": "jdbc:sqlserver://mconitor.swedencentral.cloudapp.azure.com;encrypt=true;databaseName=Widget_Staging;trustServerCertificate=true",
+          "username": "coha",
+          "password": {
+            "name": "Flyway Desktop 104942cc-055a-4cf2-a88b-ed53f8384eb5",
+            "secretType": "DefaultSecretStore"
+          },
+          "type": "UsernamePassword"
+        },
+        "schemas": []
       }
     ]
   }

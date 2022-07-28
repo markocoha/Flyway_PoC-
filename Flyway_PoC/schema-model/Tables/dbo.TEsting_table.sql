@@ -1,6 +1,7 @@
-CREATE TABLE [dbo].[TEsting_table]
+CREATE TABLE [dbo].[Testing_table]
 (
-[TEsting] [nchar] (10) NULL,
-[Testing2] [int] NULL
+[Testing] [nchar] (10) NULL,
+[Testing2] [int] NULL,
+[Testing3] [nvarchar] (50) NULL
 )
 GO
