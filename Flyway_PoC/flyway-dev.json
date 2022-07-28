@@ -10,6 +10,20 @@
     "flywayConfFiles": [
       "./flyway.conf"
     ],
-    "generateUndoScripts": true
+    "generateUndoScripts": true,
+    "targetDatabases": [
+      {
+        "connectionProvider": {
+          "url": "jdbc:sqlserver://\tmconitor.swedencentral.cloudapp.azure.com;encrypt=true;databaseName=Widget_Build;trustServerCertificate=true",
+          "username": "coha",
+          "password": {
+            "name": "Flyway Desktop f3728dec-4af7-468e-b78f-547949f331be",
+            "secretType": "DefaultSecretStore"
+          },
+          "type": "UsernamePassword"
+        },
+        "schemas": []
+      }
+    ]
   }
 }
