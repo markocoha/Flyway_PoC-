@@ -1,0 +1,13 @@
+﻿SET NUMERIC_ROUNDABORT OFF
+GO
+SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+PRINT N'Creating [dbo].[Customers]'
+GO
+CREATE TABLE [dbo].[Customers]
+(
+[D] [int] NOT NULL,
+[Name] [nvarchar] (50) NULL,
+[LName] [nvarchar] (50) NULL
+)
+GO
